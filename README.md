@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+hello this Repository will Collection group from Diverse Design
+
+node Package require
+1- bootstrap ----> npm i bootstrap
+2- JQuery ----> npm i jquery            npm i --save-dev @types/jquery
+3- @popperjs ----> npm i @popperjs/core

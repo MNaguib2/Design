@@ -1,0 +1,14 @@
+<div class="search">
+    <div class="FormEasy">
+        <p class="title">search in Select Easy</p>
+        <div class="inputItemEasy" #inputItemEasy>
+            <div class="inputEasy">
+                <input type="text" id="inputEasy" (click)="showinputSearch()" #InputEasy [(ngModel)]="filteredStatus">
+            </div>
+            <div class="ItemsEasy" #diveMenuEasy>
+                <div *ngFor="let item of ItemsSelectEasy |filterSelectEasy:filteredStatus; index as i" (click)="selectItem($event)" 
+                (mouseleave) = "cancelShadow($event)" class="item-{{i}}" (mouseenter)="shadowItem($event)" value='item'>{{item}}</div>
+            </div>
+        </div>
+    </div>
+</div>
